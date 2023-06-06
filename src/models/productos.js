@@ -6,7 +6,7 @@ const ProductSchema= new Schema({
     autor:{type:String, required:true},
     buyNowLink:{type:String, required:false}
 },{
-    timestamps:true, //agregar tiempo de creación y modif
+    timestamps:true, 
     versionKey:false
 })
 module.exports= model('productos', ProductSchema)

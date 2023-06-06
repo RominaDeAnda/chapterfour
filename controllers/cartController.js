@@ -9,7 +9,7 @@ cartCtrl.getCart = async (req, res) =>{
 cartCtrl.createCart = async (req, res) => {
     const newCart = new producto(req.body);
     await newCart.save();
-    res.send({message: 'nuevo carrito'})
+    res.send({message: 'new Cart'})
 }
 
 cartCtrl.getCart = async (req, res) =>{

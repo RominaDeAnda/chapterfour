@@ -1,0 +1,43 @@
+ [
+{
+    "id": "1",
+    "name": "the seven husbands of Evelyn Hugo",
+    "autor": "taylor jenkins reid",
+    "buyNowLink": "link1"
+},
+
+{
+    "id": "2",
+    "name": "Normal people",
+    "autor": "Sally Rooney",
+    "buyNowLink": "link2"
+},
+
+{
+    "id": "3",
+    "name": "Icebreaker",
+    "autor": "Hannah Grace",
+    "buyNowLink": "link3"
+}, 
+
+{
+    "id": "4",
+    "name": "Everything I know about love",
+    "autor": "Dolly Alderton",
+    "buyNowLink": "link4"
+},
+
+{
+    "id": "5",
+    "name": "Atomic Habits",
+    "autor": "James Clear",
+    "buyNowLink": "link5"
+},
+
+{
+    "id": "6",
+    "name": "The creative act: a way of being",
+    "autor": "Rick Rubin",
+    "buyNowLink": "link6"
+}
+]

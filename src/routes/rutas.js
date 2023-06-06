@@ -5,6 +5,70 @@ const libros= require('./books.json');
 console.log(libros);
 
 
+//requerir
+const home =require('./home.json');
+    console.log(home);
+
+const books =require('./books.json');
+    console.log(books);
+
+const cart =require('./cart.json');
+    console.log(cart);
+
+const faq =require('./faq.json');
+    console.log(faq);
+
+const about =require('./about.json');
+    console.log(about);
+
+const login =require('./login.json');
+    console.log(login);
+
+const customization =require('./customization.json');
+    console.log(customization);
+
+
+
+//rutas 
+router.get('/home', (req,res)=>{
+    const data = 
+    res.json(home);
+});
+
+router.get('/about', (req,res)=>{
+    const data =
+    res.json(about);
+});
+
+router.get('/login', (req,res)=>{
+    const data =
+    res.json(login);
+});
+
+router.get('/cart', (req,res)=>{
+    const data =
+    res.json(cart);
+});
+
+router.get('/faq', (req,res)=>{
+    const data =
+    res.json(faq);
+});
+
+router.get('/customization', (req,res)=>{
+    const data =
+    res.json(customization);
+});
+
+router.get('/books', (req,res)=>{
+    const data =
+    res.json(books);
+});
+
+
+
+
+//
 router.get('/', (req, res)=>{
     res.json(libros);
 });
@@ -36,3 +100,5 @@ router.post('/', (req,res)=>{
 });
     
 module.exports = router;
+
+

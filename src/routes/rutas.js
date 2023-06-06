@@ -24,8 +24,8 @@ const about =require('./about.json');
 const login =require('./login.json');
     console.log(login);
 
-const customization =require('./customization.json');
-    console.log(customization);
+const bookdetails =require('./bookdetails.json');
+    console.log(bookdetails);
 
 
 
@@ -55,9 +55,9 @@ router.get('/faq', (req,res)=>{
     res.json(faq);
 });
 
-router.get('/customization', (req,res)=>{
+router.get('/bookdetails', (req,res)=>{
     const data =
-    res.json(customization);
+    res.json(bookdetails);
 });
 
 router.get('/books', (req,res)=>{

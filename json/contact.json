@@ -1,0 +1,19 @@
+{
+    "pageTitle": "Contact",
+    "banner": {
+      "title": "We´d love to read about you",
+      "img1": "paper",
+      "Name": "Your name:",
+      "contentbox1": "yournamec",
+      "Last name": "Last name:",
+      "contentbox2": "lastnamec",
+      "Email": "Email",
+      "contentbox3": "email",
+      "Phone": "Phone",
+      "Message": "Message",
+      "contentbox4": "message",
+      "button1": "Send"
+
+    }
+    
+  }

@@ -1,0 +1,15 @@
+{
+    "pageTitle": "FAQ",
+    "banner": {
+      "title": "Hello, what can we do for you?",
+      "subtitle": "Use the search bar for quick answers!",
+      "search": "Ask away!",
+      "icon1": "lupa",
+      "button1": "Guides",
+      "button2": "Community",
+      "button3": "Shipping",
+      "button4": "Need further help? Start a chat!",
+      "icon2": "chat"
+    }
+    
+  }

@@ -1,0 +1,31 @@
+{
+    "pageTitle": "Your Cart",
+    "Produc 1": {
+    "img1": "itendswithus",
+      "Book1": "IT ENDS WITH US",
+      "text1": "*with design",
+      "Price": 20,
+      "Quiantity": 1,
+      "Total": 20
+    },
+    "Produc 2": {
+        "img2": "uglylove",
+          "Book2": "UGLY LOVE",
+          "text2": "*with design",
+          "Price": 20,
+          "Quiantity": 1,
+          "Total": 20
+        },
+    "Order summary": {
+        "Subtotal": 40,
+        "Shipping": 0,
+        "Coupon": "Add coupon code:",
+        "contentbox": "addcoupon",
+        "Total": 40,
+        "button": "CHECKOUT"
+        
+     }
+    
+  }
+
+

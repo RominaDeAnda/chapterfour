@@ -1,19 +1,27 @@
 {
   "name": "chapterfour",
   "version": "1.0.0",
-  "description": "",
+  "description": "books with your own cover",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "sale",
+    "books",
+    "cover"
+  ],
+  "author": "Michelle Bon",
   "license": "ISC",
+
   "dependencies": {
     "express": "^4.18.2",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "mongoose": "^7.2.2",
+    "cors": "^2.8.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
   }
+  
 }

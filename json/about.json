@@ -1,0 +1,44 @@
+{
+    "pageTitle": "About",
+    "banner": {
+      "title": "we are creating the perfect team",
+      "subtitle": "We believe that reading is not just a hobby but a way of life.",
+      "subtitle2": "That's why we are passionate about providing you with high-quality book covers that are both practical and beautiful.",
+      "img1": "person1",
+      "img2": "person2",
+      "img3": "person3"
+    },
+    "onemorechapter": {
+        "text1": "we know you just want to read",
+        "text2": "one more chapter",
+        "text3": "and we got you covered",
+        "button1": "check it out!",
+        "img4": "bookillustrated2"
+      },
+
+      "morethanonce":{
+        "text4": "we believe in reading a book more than once.",
+        "text5": "helping the planet by reading is very cool, that’s why in chapterfour. we believe in giving second chances",
+        "button2": "where to donate",
+        "img5":"donation"
+      },
+      "cherished":{
+        "text6": "we feel that books are not just objects but",
+        "text7": "cherished companions",
+        "text8": "that should be cared for and enjoyed for years to come.",
+        "text9":"Our team is made up of a group of creative and dedicated individuals who share a passion for books and design.",
+        "text10": "We work collaboratively and always strive to exceed our customers' expectations."
+      },
+      "customer":{
+        "text11": "we take pride in our",
+        "text12": "COMMITMENT TO CUSTOMER SATISFACTION",
+        "text13": "and strive to provide the best possible service to our valued customers.",
+        "button3": "REVIEW US!",
+        "img6": "customer1",
+        "img7": "customer2"
+        
+      },
+      "seemore":{
+        "text14": "see more of what we do."
+      }
+  }

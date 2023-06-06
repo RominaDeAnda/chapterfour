@@ -1,0 +1,16 @@
+{
+    "pageTitle": "Log In",
+    "banner": {
+      "title": "Welcome!",
+      "subtitle": "Please enter the following information.",
+      "email": "email",
+      "contentbox1": "customeremail",
+      "password": "password",
+      "contentbox2": "customerpassword",
+      "memory box": "remember me button",
+      "text1": "Don’t have an account yet? ",
+      "text2": "Sign Up!",
+      "img1": "loginuser"
+    }
+    
+  }

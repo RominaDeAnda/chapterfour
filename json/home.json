@@ -1,0 +1,29 @@
+{
+    "pageTitle": "chapterfour",
+    "banner": {
+      "title": "Welcome to chapterfour.",
+      "subtitle": "Because we know you do judge a book by it’s cover…",
+      "button1": "Get Started!",
+      "button2": "Log In",
+      "img1": "original cover",
+      "img2": "our cover"
+    },
+    "LatestArrivals": {
+        "img3": "before the coffe gets cold",
+        "img4": "people we meet on vacation",
+        "img5": "everything i know about love",
+        "img6": "a little life",
+        "button3": "Shop Now!"
+      },
+
+      "Questions":{
+        "text": "Have a question?",
+        "text2": "Reach out!",
+        "icon1": "Facebook",
+        "icon2": "Instagram",
+        "text3": "FAQ",
+        "img7":"bookillustrated"
+      }
+      
+    
+  }

@@ -1,0 +1,15 @@
+{
+    "pageTitle": "The Seven Husbands of Evelyn Hugo",
+    "BookDetails": {
+      "Autor": "Taylor Jenkins Reid",
+      "imgbook": "theseven",
+      "side":  ["front","side","back"],
+      "button1": "Patron",
+      "button2": "Aacabado",
+      "button3": "Importar foto",
+      "button4": "Texto",
+      "colores": ["amarillo","azul marino","rojo", "azul", "verde", "rosa", "naranja", "blanco"],
+      "button5": "$29.99"
+    }
+    
+  }

@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
-const libros= require('./books.json');
-console.log(libros);
+const books= require('./books.json');
+console.log(books);
 
-
+const booksCtrl= require('../controllers/bookController')
 //requerir
 const home =require('./home.json');
     console.log(home);
@@ -69,9 +69,7 @@ router.get('/books', (req,res)=>{
 
 
 //id del libro
-router.get('/', (req, res)=>{
-    res.json(libros);
-});
+router.get('/', booksCtrl.getBooks);
 
 router.get('/:id', (req, res)=>{
    const {id}= req.params;

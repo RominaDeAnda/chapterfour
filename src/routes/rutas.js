@@ -29,7 +29,7 @@ const bookdetails =require('./bookdetails.json');
 
 
 
-//rutas 
+//rutas GET
 router.get('/home', (req,res)=>{
     const data = 
     res.json(home);
@@ -68,7 +68,7 @@ router.get('/books', (req,res)=>{
 
 
 
-//
+//id del libro
 router.get('/', (req, res)=>{
     res.json(libros);
 });
@@ -99,6 +99,33 @@ router.post('/', (req,res)=>{
     }
 });
     
+
+
+//ruta POST 
+//contact
+router.post('/contact', async (req, res) => {
+    const { name, lastName, email, phone, message } = req.body;
+  
+    try {
+      // Crea un nuevo contacto
+      const newContact = new Contact({
+        name,
+        lastname,
+        email,
+        phone,
+        message
+      });
+  
+      //contacto en la base de datos
+      await newContact.save();
+  
+      res.json({ success: true, message: 'Tu mensaje se envió correctamente' });
+    } catch (error) {
+      console.error('Error al mandar el mensaje', error);
+      res.status(500).json({ success: false, message: 'Ha ocurrido un error al enviar el mensaje.' });
+    }
+});
+
 module.exports = router;
 
 

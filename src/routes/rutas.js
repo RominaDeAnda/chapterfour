@@ -68,21 +68,14 @@ router.get('/books', (req,res)=>{
 //id del libro
 router.get('/', booksCtrl.getBooks);
 
-router.get('/:id', (req, res)=>{
-   const {id}= req.params;
-    libros.forEach(libro => {
-        if(libro.id== id){
-            res.json(libro);
-            console.log(libro.name);
-        }
-    });
-
-    console.log(id);
-});
-
+router.get('/:id', booksCtrl.getBooks); 
 //ruta POST
-//book controller
-router.post('/', bookCtrl.createBook);
+
+//delete
+router.delete('/:id', booksCtrl.deleteBooks);
+
+router.put('/:id', booksCtrl.updateBooks);
+router.post('/', booksCtrl.createBook);
     
     
 

@@ -1,10 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const books= require('./books.json');
-console.log(books);
-
-const booksCtrl= require('../controllers/bookController')
+const booksCtrl= require('../controllers/productosController')
 //requerir
 const home =require('./home.json');
     console.log(home);
@@ -83,19 +80,10 @@ router.get('/:id', (req, res)=>{
     console.log(id);
 });
 
-
-router.post('/', (req,res)=>{
-    const {name, autor, buyNowLink} =req.body;
-    if(name && autor && buyNowLink){
-        const id= libros.length +1;
-        const nuevoLibro= {...req.body, id};
-       libros.push(nuevoLibro);
-        // console.log(nuevoLibro);
-        res.status(200).json(libros);
-    }else{
-        res.send("error: no existe libro");
-    }
-});
+//ruta POST
+//book controller
+router.post('/', bookCtrl.createBook);
+    
     
 
 

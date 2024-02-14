@@ -1,0 +1,138 @@
+/* menu */
+
+
+ul {
+  list-style-type: none;
+  margin: 0; 
+  padding-left: 90px;
+  
+} 
+
+li {
+  display: inline-block;
+  margin-right: 125px; /* add spacing between items */ 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 520;
+   font-size: 18px;
+   line-height: 27px;
+   color: #000000;  
+}
+
+#menu { 
+position: fixed;
+width: 1440px;
+height: 50px;
+left: 0px;
+top: 0px; 
+text-align: center;
+padding-top: 15px;
+
+
+background: #FFF9F1; 
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+backdrop-filter: blur(1px); 
+z-index:1;
+}  
+
+a {
+  text-decoration: none;
+  color: black; 
+  
+} 
+
+.title{
+    color: #0D5259;
+    font-weight: 600;
+}
+
+.trending p{
+    padding-left: 40px;
+    font-family: "Montserrat";
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.stories p{
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.trending img{
+    width: 105%;
+    height: auto;
+    align-items: center;
+}
+
+.searchbox {
+    background: #fff;
+    height: 30px;
+    border-radius: 60px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .search:hover .input {
+    width: 400p;
+  }
+  
+.libros{
+  background-color: #E2EAEB;
+}
+
+#books{
+  padding-left: 40px;
+}
+
+#books h2{
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 25px;
+}
+
+#books h3{
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#books p{
+      font-family: "Montserrat";
+      font-size: 15px;
+      color: #7C8181;
+      text-align: center;
+}
+.shoeh{
+  width: 48%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pic{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .buy{
+    background-color: transparent;
+    border: #AE9E89;
+    border-style: solid;
+    border-width: 3px;
+    font-family: "Montserrat";
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    border-radius: 26px;
+    padding: 10px;
+  }

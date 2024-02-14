@@ -1,0 +1,185 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Montserrat";
+  }
+ 
+
+  /* menu */
+
+
+ul {
+    list-style-type: none;
+    margin: 0; 
+    padding-left: 90px;
+    
+  } 
+  
+  li {
+    display: inline-block;
+    margin-right: 125px; /* add spacing between items */ 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 520;
+     font-size: 18px;
+     line-height: 27px;
+     color: #000000;  
+  }
+  
+  #menu { 
+  position: fixed;
+  width: 1440px;
+  height: 50px;
+  left: 0px;
+  top: 0px; 
+  text-align: center;
+  padding-top: 15px;
+  
+  
+  background: #FFF9F1; 
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  backdrop-filter: blur(1px); 
+  z-index:1;
+  }  
+  
+a {
+    text-decoration: none;
+    color: black; 
+    
+  } 
+
+.title{
+    color: #0D5259;
+    font-weight: 600;
+}
+
+.titulo h1{
+    font-size: 35px;
+    color: #0D5259;
+    font-weight: 600;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.titulo h2{
+    font-size: 22px;
+    font-weight: 300;
+    padding-left: 40px;
+}
+
+.libro{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto p{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.col-md-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.option{
+    background-color: transparent;
+    border: #AE9E89;
+    border-style: solid;
+    border-width: 3px;
+    font-family: "Montserrat";
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    border-radius: 26px;
+    padding: 10px;
+    width: 87%;
+}
+
+  .escribe{
+    border-radius: 25px;
+    border: #AE9E89;
+    border-style: solid;
+    border-width: 3px;
+    padding: 20px; 
+    width: 200px;
+    height: 15px; 
+  }
+
+  .picker{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .colorpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .colors {
+    display: flex;
+    bottom: 2em;
+    right: 2em;
+    z-index: 3;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  
+  .color {
+    height: 46px;
+    width: 46px;
+    margin-left: 0.5em;
+    border-radius: 28px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    border: 2px solid #aaa;
+    cursor: pointer;
+  }
+
+  .upload{
+    background-color: transparent;
+    font-family: "Montserrat";
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    border-radius: 26px;
+    padding: 10px;
+    width: 97%;
+  }
+
+  .buynow{
+    background-color: #0D5259;
+    border: #AE9E89;
+    border-style: solid;
+    border-width: 3px;
+    font-family: "Montserrat";
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border-radius: 26px;
+    padding: 10px;
+    width: 18%;
+    
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+

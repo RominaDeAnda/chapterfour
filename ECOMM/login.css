@@ -1,0 +1,293 @@
+/* menu */
+
+
+ul {
+    list-style-type: none;
+    margin: 0; 
+    padding-left: 90px;
+   
+    
+    
+  } 
+
+  li {
+    display: inline-block;
+    margin-right: 125px; /* add spacing between items */ 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+     font-size: 18px;
+     line-height: 27px;
+     color: #000000;  
+
+  }
+  
+#menu { 
+position: fixed;
+width: 1440px;
+height: 50px;
+left: 0px;
+top: 0px; 
+text-align: center;
+padding-top: 25px;
+
+
+background: #FFF9F1; 
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+backdrop-filter: blur(1px); 
+z-index:1; /*Add this*/
+}  
+
+a {
+    text-decoration: none;
+    color: black; 
+    
+  } 
+
+ /* login */  
+ body{ 
+  background-image: url(fondo_login.png);
+  }
+
+ h1 {
+position: absolute;
+width: 329px;
+height: 70px;
+left: 88px;
+top: 201px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+ } 
+
+ h2{ 
+ position: absolute;
+width: 551px;
+height: 104px;
+top: 225px; 
+left: 88px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 85px;
+line-height: 104px;
+/* identical to box height */
+
+
+color: #0D5259;
+ } 
+
+ p{ 
+    position: absolute;
+width: 414px;
+height: 64px;
+left: 88px;
+top: 385px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 37px;
+
+color: #000000;
+ }  
+
+
+h3 { 
+position: absolute;
+width: 211px;
+height: 26px;
+left: 658px;
+top: 1072px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+} 
+
+ #button1 { 
+position: absolute;
+left: 88px;
+width: 213.23px;
+height: 58px;
+top: 531px; 
+background-color: #BE2C8F; 
+border-color: #BE2C8F;
+border-radius: 68.5px; 
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+
+color: #FBF8F4;  
+
+filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.15));
+ }  
+
+ #button2 { 
+ position: absolute;
+width: 215.71px;
+height: 58px;
+left: 315.29px;
+top: 531px;
+
+border-radius: 68.5px;
+border: 2px solid #111111; 
+background-color: #ffffff;  
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px; 
+color:#000000;
+
+ } 
+
+ img { 
+position: absolute;
+width: 352px;
+height: 530px;
+left: 728px;
+left: 691px;
+top: 162px; 
+ }  
+
+ /* login */  
+
+ #fondo img{ 
+  position: absolute;
+width: 1921px;
+height: 1918px;
+left: -289px;
+top: -152px;
+ }
+
+ #login { 
+  position: absolute;
+  width: 942px;
+  height: 561px;
+  left: 250px;
+  top: 231px; 
+
+background: rgba(251, 248, 244, 0.9);
+box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+} 
+
+ #login h1 { 
+
+    position: absolute;
+width: 259px;
+height: 61px;
+left: 55px;
+top: 40px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 61px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+ } 
+
+ #login h2{ 
+position: absolute;
+width: 389px;
+height: 24px;
+left: 60px;
+top: 130px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+ } 
+
+#login p { 
+ position: absolute;
+width: 364px;
+height: 24px;
+left: -10px;
+top: 155px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+}  
+
+form { 
+position: relative;
+left: 70px;
+top: 200px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: left;
+border-radius: 4px;
+color: #000000;
+} 
+
+
+#login button { 
+position: absolute;
+width: 198px;
+height: 57px;
+left: -15px;
+top: 250px;
+
+background: #BE2C8F;
+border-radius: 68.5px; 
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #FBF8F4;
+} 
+
+input { 
+width: 300px; 
+}  
+
+input [type=checkbox] { 
+box-sizing: border-box;
+} 
+
+
+
+/* fondo */  
+
+

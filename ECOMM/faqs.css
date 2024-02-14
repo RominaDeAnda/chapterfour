@@ -1,0 +1,204 @@
+/* menu */
+
+
+ul {
+    list-style-type: none;
+    margin: 0; 
+    padding-left: 100px; 
+  } 
+
+  li {
+    display: inline-block;
+    margin-right: 125px; /* add spacing between items */ 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+     font-size: 18px;
+     line-height: 27px;
+     color: #000000;  
+  }
+  
+#menu { 
+position: fixed;
+width: 1440px;
+height: 50px;
+left: 0px;
+top: 0px; 
+text-align: center;
+padding-top: 25px;
+
+
+background: #FFF9F1; 
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+backdrop-filter: blur(1px); 
+z-index:1; /*Add this*/
+}  
+
+a {
+    text-decoration: none;
+    color: black; 
+    
+  } 
+
+  /* faqs */ 
+
+  body{ 
+  background-image: url(fondo_login.png);
+  }
+ 
+#faqs h1 { 
+position: absolute;
+width: 600px;
+height: 43px;
+left: 390px;
+top: 150px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 43px;
+/* identical to box height */
+
+text-align: center;  
+  } 
+
+#faqs p { 
+position: absolute;
+width: 386px;
+height: 24px;
+left: 415px;
+top: 200px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center; 
+
+color: rgba(71, 67, 67, 0.6);
+} 
+
+form input{  
+position: absolute;
+width: 823px;
+height: 62px;
+left: 309px;
+top: 280px;
+
+background: #FBF8F4;
+border-radius: 27px;
+border-color: #FBF8F4;
+} 
+
+input[type="text"]::placeholder {
+color: #aaa;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;  
+text-align: center;
+
+  } 
+
+#guides { 
+position: absolute;
+width: 282px;
+height: 257px;
+left: 229px;
+top: 410px;
+
+background: rgba(13, 82, 89, 0.8);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 26px;
+}  
+
+#guides img{ 
+    position: absolute;  
+    top: 60px; 
+    left: 80px;
+    width: 120px; 
+    height: 101px;
+
+} 
+
+#guides p{ 
+     position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    left: 100px; 
+    top: 160px;
+    
+    color: #FFF9F1;
+}
+
+#community { 
+    position: absolute;
+width: 282px;
+height: 257px;
+left: 580px;
+top: 410px;
+
+background: rgba(244, 125, 35, 0.8);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 26px;
+}   
+
+#community img{ 
+position: absolute;
+  width: 150px; 
+  height: 90px; 
+  top: 70px; 
+  left: 65px;
+} 
+
+#community p{
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    left: 80px; 
+    top: 160px;
+    
+    color: #FFF9F1;
+}
+
+#shipping { 
+position: absolute;
+width: 282px;
+height: 257px;
+left: 931px;
+top: 410px;
+
+background: rgba(190, 44, 143, 0.8);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 26px;
+} 
+
+#shipping img{ 
+position: absolute; 
+width: 125px; 
+height: 107px; 
+top: 55px; 
+left: 85px;
+
+} 
+
+#shipping p{  
+position: absolute;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+left: 98px; 
+top: 160px;
+
+color: #FFF9F1;
+}
